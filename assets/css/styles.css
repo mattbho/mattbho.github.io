@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin:0;
+  background:#eee;
+  height: auto;
+}
+
+#landing-text-inner h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 1350px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0,0,0,0.1), -30px 0px 40px rgba(0,0,0,0.1);
+}
+
+#landing {
+  background: white;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-img {
+  background: url('../images/IMG_6386.JPG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+.landing-btn {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.landing-btn:hover {
+  background: #f4f4f4;
+}
+
+#profile-header{
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  background: #333;
+  color: #fff;
+}
+
+#profile-header h1 {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+#profile-text{
+  background: white;
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#project-header{
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+#project-header h1 {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#project-header h1 {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#skills-header {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+#skills-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+.language {
+  max-width: 7.5rem;
+  max-height: 7.5rem;
+  padding: 10px;
+}
+
+.framework {
+  max-width: 10rem;
+  height: auto;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: #333;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: #333;
+}
+
+@media(min-width: 925px){
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text{
+    height: 100vh;
+  }
+
+  #landing-img {
+    height: 100vh;
+  }
+}
+
+@media(min-width: 700px){
+  .landing-btn {
+    padding: 1rem 3rem;
+  }
+}
