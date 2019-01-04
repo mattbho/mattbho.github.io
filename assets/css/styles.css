@@ -97,6 +97,7 @@ main {
   flex: 0 1 40vw;
   height: 50vh;
   align-items: center;
+  justify-content: center;
   text-align: center;
   padding-right: 1rem;
   padding-left: 1rem;
